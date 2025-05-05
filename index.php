@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <h1>My first PHP page</h1>
+    <p>this is  a test on updating a branch on github and what that means.</p>
+    <p>Another <?php echo 'another' ?> second shot</p>
 
-  <h1>My first PHP page</h1>
-  <p>this is  a test on updating a branch on github and what that means.</p>
-  <p>Another second shot</p>
+    <p>let us see who makes this commit</p>
 
-  <p>let us see who makes this commit</p>
-
-  <?php
-  echo "Hello World!";
-  ?>
+    <?php
+    echo "Hello World!";
+    ?>
 
   </body>
 </html>
