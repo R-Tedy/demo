@@ -27,7 +27,14 @@
     echo '<br>';
 
     // Superglobals pre-defined variables
-    echo $_SERVER['DOCUMENT_ROOT'];
+    echo $_SERVER['DOCUMENT_ROOT']; //access server functions
+    echo $_GET['name']; // gets data submited in the website
+    $_POST['name']; //submiting data to a website or database
+    echo $_REQUEST['name']; //looks for get, post and cookies in a website.. looks for everything.
+    echo $_FILES['size']; // get data on a submited file
+    echo $_COOKIE['name']; // small files stored in the user computer...get the cookie data.
+    echo $_SESSION['username']; //stores the session data for the user.
+    echo $_ENV['name']; //get access to environment variables.
     ?>
 
   </body>
