@@ -20,9 +20,14 @@
     $array2 = ['new', 'way'];
 
     //Object types
-    $object = new Object();
+    // $object = new Object();
     echo "Hello World!";
+    echo '<br>';
     echo $name;
+    echo '<br>';
+
+    // Superglobals pre-defined variables
+    echo $_SERVER['DOCUMENT_ROOT'];
     ?>
 
   </body>
